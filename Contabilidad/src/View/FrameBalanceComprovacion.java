@@ -33,33 +33,82 @@ public class FrameBalanceComprovacion extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jSeparator1 = new javax.swing.JSeparator();
-        jTextField1 = new javax.swing.JTextField();
-        jTextField2 = new javax.swing.JTextField();
-        jTextField3 = new javax.swing.JTextField();
+        txtCuentaCom1 = new javax.swing.JTextField();
+        txtCuentaCom2 = new javax.swing.JTextField();
+        txtCuentaCom3 = new javax.swing.JTextField();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        txtCuentaCom4 = new javax.swing.JTextField();
+        txtCuentaCom5 = new javax.swing.JTextField();
+        txtCuentaCom6 = new javax.swing.JTextField();
+        txtCuentaCom7 = new javax.swing.JTextField();
+        txtCuentaCom8 = new javax.swing.JTextField();
+        txtCuentaCom9 = new javax.swing.JTextField();
+        txtCuentaCom10 = new javax.swing.JTextField();
+        txtDeudor4 = new javax.swing.JTextField();
+        txtDeudor5 = new javax.swing.JTextField();
+        txtDeudor6 = new javax.swing.JTextField();
+        txtDeudor7 = new javax.swing.JTextField();
+        txtDeudor1 = new javax.swing.JTextField();
+        txtDeudor8 = new javax.swing.JTextField();
+        txtDeudor2 = new javax.swing.JTextField();
+        txtDeudor9 = new javax.swing.JTextField();
+        txtDeudor3 = new javax.swing.JTextField();
+        txtDeudor10 = new javax.swing.JTextField();
+        txtAcreedor4 = new javax.swing.JTextField();
+        txtAcreedor5 = new javax.swing.JTextField();
+        txtAcreedor6 = new javax.swing.JTextField();
+        txtAcreedor7 = new javax.swing.JTextField();
+        txtAcreedor1 = new javax.swing.JTextField();
+        txtAcreedor8 = new javax.swing.JTextField();
+        txtAcreedor2 = new javax.swing.JTextField();
+        txtAcreedor9 = new javax.swing.JTextField();
+        txtAcreedor3 = new javax.swing.JTextField();
+        txtAcreedor10 = new javax.swing.JTextField();
+        txtDeudor14 = new javax.swing.JTextField();
+        txtDeudor15 = new javax.swing.JTextField();
+        txtDeudor16 = new javax.swing.JTextField();
+        txtDeudor17 = new javax.swing.JTextField();
+        txtDeudor11 = new javax.swing.JTextField();
+        txtDeudor18 = new javax.swing.JTextField();
+        txtDeudor12 = new javax.swing.JTextField();
+        txtDeudor19 = new javax.swing.JTextField();
+        txtDeudor13 = new javax.swing.JTextField();
+        txtDeudor20 = new javax.swing.JTextField();
+        txtAcreedor14 = new javax.swing.JTextField();
+        txtAcreedor15 = new javax.swing.JTextField();
+        txtAcreedor16 = new javax.swing.JTextField();
+        txtAcreedor17 = new javax.swing.JTextField();
+        txtAcreedor11 = new javax.swing.JTextField();
+        txtAcreedor18 = new javax.swing.JTextField();
+        txtAcreedor12 = new javax.swing.JTextField();
+        txtAcreedor19 = new javax.swing.JTextField();
+        txtAcreedor13 = new javax.swing.JTextField();
+        txtAcreedor20 = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLabel1.setText("Cuentas");
 
-        jLabel2.setText("Cargos");
+        jLabel2.setText("Deudor");
 
-        jLabel3.setText("Abonos");
+        jLabel3.setText("Acreedor");
 
-        jLabel4.setText("Cargos");
+        jLabel4.setText("Deudor");
 
-        jLabel5.setText("Abonos");
+        jLabel5.setText("Acreedor");
 
-        jTextField1.addActionListener(new java.awt.event.ActionListener() {
+        txtCuentaCom1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField1ActionPerformed(evt);
+                txtCuentaCom1ActionPerformed(evt);
             }
         });
 
-        jTextField3.addActionListener(new java.awt.event.ActionListener() {
+        txtCuentaCom3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField3ActionPerformed(evt);
+                txtCuentaCom3ActionPerformed(evt);
             }
         });
 
@@ -77,24 +126,166 @@ public class FrameBalanceComprovacion extends javax.swing.JFrame {
             }
         });
 
+        jLabel6.setText("MOVIMIENTOS");
+
+        jLabel7.setText("SALDOS");
+
+        txtDeudor4.setText("$");
+
+        txtDeudor5.setText("$");
+        txtDeudor5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtDeudor5ActionPerformed(evt);
+            }
+        });
+
+        txtDeudor6.setText("$");
+
+        txtDeudor7.setText("$");
+
+        txtDeudor1.setText("$");
+        txtDeudor1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtDeudor1ActionPerformed(evt);
+            }
+        });
+
+        txtDeudor8.setText("$");
+
+        txtDeudor2.setText("$");
+
+        txtDeudor9.setText("$");
+
+        txtDeudor3.setText("$");
+        txtDeudor3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtDeudor3ActionPerformed(evt);
+            }
+        });
+
+        txtDeudor10.setText("$");
+
+        txtAcreedor4.setText("$");
+
+        txtAcreedor5.setText("$");
+
+        txtAcreedor6.setText("$");
+
+        txtAcreedor7.setText("$");
+
+        txtAcreedor1.setText("$");
+        txtAcreedor1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtAcreedor1ActionPerformed(evt);
+            }
+        });
+
+        txtAcreedor8.setText("$");
+
+        txtAcreedor2.setText("$");
+
+        txtAcreedor9.setText("$");
+
+        txtAcreedor3.setText("$");
+        txtAcreedor3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtAcreedor3ActionPerformed(evt);
+            }
+        });
+
+        txtAcreedor10.setText("$");
+        txtAcreedor10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtAcreedor10ActionPerformed(evt);
+            }
+        });
+
+        txtDeudor14.setText("$");
+
+        txtDeudor15.setText("$");
+
+        txtDeudor16.setText("$");
+
+        txtDeudor17.setText("$");
+
+        txtDeudor11.setText("$");
+        txtDeudor11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtDeudor11ActionPerformed(evt);
+            }
+        });
+
+        txtDeudor18.setText("$");
+
+        txtDeudor12.setText("$");
+
+        txtDeudor19.setText("$");
+
+        txtDeudor13.setText("$");
+        txtDeudor13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtDeudor13ActionPerformed(evt);
+            }
+        });
+
+        txtDeudor20.setText("$");
+
+        txtAcreedor14.setText("$");
+
+        txtAcreedor15.setText("$");
+
+        txtAcreedor16.setText("$");
+
+        txtAcreedor17.setText("$");
+
+        txtAcreedor11.setText("$");
+        txtAcreedor11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtAcreedor11ActionPerformed(evt);
+            }
+        });
+
+        txtAcreedor18.setText("$");
+
+        txtAcreedor12.setText("$");
+
+        txtAcreedor19.setText("$");
+
+        txtAcreedor13.setText("$");
+        txtAcreedor13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtAcreedor13ActionPerformed(evt);
+            }
+        });
+
+        txtAcreedor20.setText("$");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-                        .addGap(36, 36, 36)
-                        .addComponent(jLabel1)
-                        .addGap(233, 233, 233)
+                .addGap(36, 36, 36)
+                .addComponent(jLabel1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 271, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addGroup(layout.createSequentialGroup()
                         .addComponent(jLabel2)
                         .addGap(78, 78, 78)
                         .addComponent(jLabel3)
-                        .addGap(59, 59, 59)
+                        .addGap(77, 77, 77)
                         .addComponent(jLabel4)
-                        .addGap(72, 72, 72)
+                        .addGap(81, 81, 81)
                         .addComponent(jLabel5)
-                        .addGap(0, 93, Short.MAX_VALUE))
+                        .addGap(101, 101, 101))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(39, 39, 39)
+                        .addComponent(jLabel6)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jLabel7)
+                        .addGap(158, 158, 158))))
+            .addGroup(layout.createSequentialGroup()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
                         .addContainerGap()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -102,9 +293,64 @@ public class FrameBalanceComprovacion extends javax.swing.JFrame {
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(10, 10, 10)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(jTextField1, javax.swing.GroupLayout.DEFAULT_SIZE, 249, Short.MAX_VALUE)
-                                    .addComponent(jTextField2)
-                                    .addComponent(jTextField3))
+                                    .addComponent(txtCuentaCom1, javax.swing.GroupLayout.DEFAULT_SIZE, 249, Short.MAX_VALUE)
+                                    .addComponent(txtCuentaCom2)
+                                    .addComponent(txtCuentaCom3)
+                                    .addComponent(txtCuentaCom4)
+                                    .addComponent(txtCuentaCom5)
+                                    .addComponent(txtCuentaCom6)
+                                    .addComponent(txtCuentaCom7)
+                                    .addComponent(txtCuentaCom8)
+                                    .addComponent(txtCuentaCom9)
+                                    .addComponent(txtCuentaCom10))
+                                .addGap(52, 52, 52)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                    .addComponent(txtDeudor9, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtDeudor8, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtDeudor7, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtDeudor6, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtDeudor5, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtDeudor4, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtDeudor3, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtDeudor2, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtDeudor1, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtDeudor10, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(44, 44, 44)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                    .addComponent(txtAcreedor9, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtAcreedor8, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtAcreedor7, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtAcreedor6, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtAcreedor5, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtAcreedor4, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtAcreedor3, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtAcreedor2, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtAcreedor1, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtAcreedor10, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(39, 39, 39)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                    .addComponent(txtDeudor19, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtDeudor18, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtDeudor17, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtDeudor16, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtDeudor15, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtDeudor14, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtDeudor13, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtDeudor12, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtDeudor11, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtDeudor20, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(39, 39, 39)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                    .addComponent(txtAcreedor19, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtAcreedor18, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtAcreedor17, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtAcreedor16, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtAcreedor15, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtAcreedor14, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtAcreedor13, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtAcreedor12, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtAcreedor11, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtAcreedor20, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addGap(0, 0, Short.MAX_VALUE))))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(28, 28, 28)
@@ -116,22 +362,127 @@ public class FrameBalanceComprovacion extends javax.swing.JFrame {
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(36, 36, 36)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addContainerGap()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jLabel1)
-                    .addComponent(jLabel2)
-                    .addComponent(jLabel3)
-                    .addComponent(jLabel4)
-                    .addComponent(jLabel5))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel6)
+                            .addComponent(jLabel7))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel2)
+                            .addComponent(jLabel3)
+                            .addComponent(jLabel4)
+                            .addComponent(jLabel5))))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 256, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addGroup(layout.createSequentialGroup()
+                                    .addComponent(txtCuentaCom1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(txtCuentaCom2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(txtCuentaCom3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(txtCuentaCom4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(txtCuentaCom5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(txtCuentaCom6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(txtCuentaCom7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(txtCuentaCom8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(txtCuentaCom9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(txtCuentaCom10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                    .addComponent(txtAcreedor1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(txtAcreedor2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(txtAcreedor3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(txtAcreedor4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(txtAcreedor5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(txtAcreedor6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(txtAcreedor7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(txtAcreedor8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(txtAcreedor9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(txtAcreedor10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(txtDeudor11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(txtDeudor12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(txtDeudor13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(txtDeudor14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(txtDeudor15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(txtDeudor16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(txtDeudor17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(txtDeudor18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(txtDeudor19, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(txtDeudor20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(txtAcreedor11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(txtAcreedor12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(txtAcreedor13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(txtAcreedor14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(txtAcreedor15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(txtAcreedor16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(txtAcreedor17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(txtAcreedor18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(txtAcreedor19, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(txtAcreedor20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addComponent(txtDeudor1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(txtDeudor2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(txtDeudor3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(txtDeudor4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(txtDeudor5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(txtDeudor6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(txtDeudor7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(txtDeudor8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(txtDeudor9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(txtDeudor10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 39, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton1)
                     .addComponent(jButton2))
@@ -141,13 +492,13 @@ public class FrameBalanceComprovacion extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jTextField3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField3ActionPerformed
+    private void txtCuentaCom3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCuentaCom3ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField3ActionPerformed
+    }//GEN-LAST:event_txtCuentaCom3ActionPerformed
 
-    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+    private void txtCuentaCom1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCuentaCom1ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField1ActionPerformed
+    }//GEN-LAST:event_txtCuentaCom1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
 FrameTMayor c=new FrameTMayor ();
@@ -160,6 +511,46 @@ this.setVisible(false);
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void txtDeudor1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtDeudor1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtDeudor1ActionPerformed
+
+    private void txtDeudor3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtDeudor3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtDeudor3ActionPerformed
+
+    private void txtAcreedor1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtAcreedor1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtAcreedor1ActionPerformed
+
+    private void txtAcreedor3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtAcreedor3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtAcreedor3ActionPerformed
+
+    private void txtDeudor11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtDeudor11ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtDeudor11ActionPerformed
+
+    private void txtDeudor13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtDeudor13ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtDeudor13ActionPerformed
+
+    private void txtAcreedor11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtAcreedor11ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtAcreedor11ActionPerformed
+
+    private void txtAcreedor13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtAcreedor13ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtAcreedor13ActionPerformed
+
+    private void txtDeudor5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtDeudor5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtDeudor5ActionPerformed
+
+    private void txtAcreedor10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtAcreedor10ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtAcreedor10ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -204,9 +595,58 @@ this.setVisible(false);
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JSeparator jSeparator1;
-    private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextField jTextField2;
-    private javax.swing.JTextField jTextField3;
+    private javax.swing.JTextField txtAcreedor1;
+    private javax.swing.JTextField txtAcreedor10;
+    private javax.swing.JTextField txtAcreedor11;
+    private javax.swing.JTextField txtAcreedor12;
+    private javax.swing.JTextField txtAcreedor13;
+    private javax.swing.JTextField txtAcreedor14;
+    private javax.swing.JTextField txtAcreedor15;
+    private javax.swing.JTextField txtAcreedor16;
+    private javax.swing.JTextField txtAcreedor17;
+    private javax.swing.JTextField txtAcreedor18;
+    private javax.swing.JTextField txtAcreedor19;
+    private javax.swing.JTextField txtAcreedor2;
+    private javax.swing.JTextField txtAcreedor20;
+    private javax.swing.JTextField txtAcreedor3;
+    private javax.swing.JTextField txtAcreedor4;
+    private javax.swing.JTextField txtAcreedor5;
+    private javax.swing.JTextField txtAcreedor6;
+    private javax.swing.JTextField txtAcreedor7;
+    private javax.swing.JTextField txtAcreedor8;
+    private javax.swing.JTextField txtAcreedor9;
+    private javax.swing.JTextField txtCuentaCom1;
+    private javax.swing.JTextField txtCuentaCom10;
+    private javax.swing.JTextField txtCuentaCom2;
+    private javax.swing.JTextField txtCuentaCom3;
+    private javax.swing.JTextField txtCuentaCom4;
+    private javax.swing.JTextField txtCuentaCom5;
+    private javax.swing.JTextField txtCuentaCom6;
+    private javax.swing.JTextField txtCuentaCom7;
+    private javax.swing.JTextField txtCuentaCom8;
+    private javax.swing.JTextField txtCuentaCom9;
+    private javax.swing.JTextField txtDeudor1;
+    private javax.swing.JTextField txtDeudor10;
+    private javax.swing.JTextField txtDeudor11;
+    private javax.swing.JTextField txtDeudor12;
+    private javax.swing.JTextField txtDeudor13;
+    private javax.swing.JTextField txtDeudor14;
+    private javax.swing.JTextField txtDeudor15;
+    private javax.swing.JTextField txtDeudor16;
+    private javax.swing.JTextField txtDeudor17;
+    private javax.swing.JTextField txtDeudor18;
+    private javax.swing.JTextField txtDeudor19;
+    private javax.swing.JTextField txtDeudor2;
+    private javax.swing.JTextField txtDeudor20;
+    private javax.swing.JTextField txtDeudor3;
+    private javax.swing.JTextField txtDeudor4;
+    private javax.swing.JTextField txtDeudor5;
+    private javax.swing.JTextField txtDeudor6;
+    private javax.swing.JTextField txtDeudor7;
+    private javax.swing.JTextField txtDeudor8;
+    private javax.swing.JTextField txtDeudor9;
     // End of variables declaration//GEN-END:variables
 }
