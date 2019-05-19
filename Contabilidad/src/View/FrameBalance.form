@@ -38,11 +38,7 @@
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="0" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jScrollPane1" pref="1828" max="32767" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-          </Group>
+          <Component id="jScrollPane1" alignment="1" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
   </Layout>
@@ -88,11 +84,6 @@
                       <EmptySpace max="32767" attributes="0"/>
                       <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="108" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace max="32767" attributes="0"/>
-                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="414" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
@@ -192,7 +183,7 @@
                                                       </Group>
                                                       <EmptySpace min="-2" pref="158" max="-2" attributes="0"/>
                                                       <Group type="103" groupAlignment="1" attributes="0">
-                                                          <Component id="txtAciento8Monto29" alignment="0" pref="199" max="32767" attributes="0"/>
+                                                          <Component id="txtAciento8Monto29" alignment="0" pref="213" max="32767" attributes="0"/>
                                                           <Component id="txtAciento8Monto27" alignment="0" max="32767" attributes="0"/>
                                                           <Component id="txtAciento8Monto26" alignment="0" max="32767" attributes="0"/>
                                                       </Group>
@@ -313,7 +304,7 @@
                                                       </Group>
                                                       <EmptySpace min="-2" pref="158" max="-2" attributes="0"/>
                                                       <Group type="103" groupAlignment="1" attributes="0">
-                                                          <Component id="txtAciento4Monto16" alignment="0" pref="199" max="32767" attributes="0"/>
+                                                          <Component id="txtAciento4Monto16" alignment="0" pref="213" max="32767" attributes="0"/>
                                                           <Component id="txtAciento4Monto15" alignment="0" max="32767" attributes="0"/>
                                                           <Component id="txtAciento4Monto14" alignment="0" max="32767" attributes="0"/>
                                                       </Group>
@@ -430,7 +421,7 @@
                                       <Component id="boxActivo2" alignment="1" min="-2" pref="138" max="-2" attributes="0"/>
                                       <Component id="boxActivo3" alignment="1" min="-2" pref="138" max="-2" attributes="0"/>
                                   </Group>
-                                  <Component id="boxactivo1" alignment="0" min="-2" pref="138" max="-2" attributes="0"/>
+                                  <Component id="boxAciento1" alignment="0" min="-2" pref="138" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" max="-2" attributes="0">
@@ -482,6 +473,11 @@
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="414" max="-2" attributes="0"/>
+                  </Group>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
@@ -511,7 +507,7 @@
                           <Group type="102" alignment="0" attributes="0">
                               <Group type="103" groupAlignment="3" attributes="0">
                                   <Component id="txt1" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="boxactivo1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="boxAciento1" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
@@ -784,7 +780,7 @@
                           <Component id="txtAciento10Monto34" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="txtAciento10NumeroCuenta27" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace type="separate" pref="170" max="32767" attributes="0"/>
+                      <EmptySpace pref="172" max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
                           <Component id="btnBalanceDiarioT" max="32767" attributes="0"/>
                           <Component id="btnEstadoDeResultado" max="32767" attributes="0"/>
@@ -1329,8 +1325,12 @@
                 <Property name="text" type="java.lang.String" value="ACEPTAR"/>
               </Properties>
               <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnBalanceDiarioTMouseClicked"/>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBalanceDiarioTActionPerformed"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="txtAciento6Monto20">
               <Properties>
@@ -1399,6 +1399,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtAciento1Monto1ActionPerformed"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="txtAciento1Monto2">
               <Properties>
@@ -1443,6 +1446,9 @@
               </Events>
             </Component>
             <Component class="javax.swing.JTextField" name="txt2">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt2ActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JTextField" name="txtAciento7Monto23">
               <Properties>
@@ -1877,7 +1883,7 @@
                 <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
               </AuxValues>
             </Component>
-            <Component class="javax.swing.JComboBox" name="boxactivo1">
+            <Component class="javax.swing.JComboBox" name="boxAciento1">
               <Properties>
                 <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                   <StringArray count="4">
@@ -1889,7 +1895,7 @@
                 </Property>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="boxactivo1ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="boxAciento1ActionPerformed"/>
               </Events>
               <AuxValues>
                 <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>

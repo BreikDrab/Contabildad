@@ -105,6 +105,9 @@
               <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
           </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
 
           <Layout>
             <DimensionLayout dim="0">
@@ -185,18 +188,18 @@
                                           </Group>
                                           <EmptySpace max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="jTextField2" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
-                                              <Component id="jTextField1" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
-                                              <Component id="jTextField4" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
-                                              <Component id="jTextField3" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
-                                              <Component id="jTextField267" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                                              <Component id="txtCaja2" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                                              <Component id="txtCaja1" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                                              <Component id="txtCaja3" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                                              <Component id="txtCaja4" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                                              <Component id="txtCaja5" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
                                           </Group>
                                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                           <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
                                           <EmptySpace max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="jTextField6" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
-                                              <Component id="jTextField5" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                                              <Component id="txtCaja7" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                                              <Component id="txtCaja6" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
                                               <Component id="jTextField8" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
                                               <Component id="jTextField7" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
                                               <Component id="jTextField265" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
@@ -227,7 +230,7 @@
                                       <EmptySpace max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
                                           <Component id="jTextField12" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
-                                          <Component id="jTextField13" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                                          <Component id="txtBanco1" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
                                           <Component id="jTextField16" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
                                           <Component id="jTextField15" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
                                           <Component id="jTextField270" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
@@ -587,7 +590,7 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
                       <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="1" attributes="0">
                           <Group type="102" alignment="1" attributes="0">
                               <Group type="103" groupAlignment="1" attributes="0">
@@ -600,7 +603,7 @@
                                           <Group type="102" alignment="0" attributes="0">
                                               <Group type="103" groupAlignment="1" attributes="0">
                                                   <Group type="102" alignment="0" attributes="0">
-                                                      <Component id="jTextField13" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="txtBanco1" min="-2" max="-2" attributes="0"/>
                                                       <EmptySpace max="-2" attributes="0"/>
                                                       <Component id="jTextField12" min="-2" pref="20" max="-2" attributes="0"/>
                                                   </Group>
@@ -721,26 +724,26 @@
                                   <Group type="102" alignment="0" attributes="0">
                                       <Group type="103" groupAlignment="1" attributes="0">
                                           <Group type="102" alignment="0" attributes="0">
-                                              <Component id="jTextField1" min="-2" max="-2" attributes="0"/>
+                                              <Component id="txtCaja1" min="-2" max="-2" attributes="0"/>
                                               <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="jTextField2" min="-2" pref="20" max="-2" attributes="0"/>
+                                              <Component id="txtCaja2" min="-2" pref="20" max="-2" attributes="0"/>
                                           </Group>
                                           <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
                                           <Group type="102" alignment="1" attributes="0">
                                               <Group type="103" groupAlignment="3" attributes="0">
-                                                  <Component id="jTextField5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="txtCaja6" alignment="3" min="-2" max="-2" attributes="0"/>
                                                   <Component id="jTextField128" alignment="3" min="-2" max="-2" attributes="0"/>
                                               </Group>
                                               <EmptySpace max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="3" attributes="0">
-                                                  <Component id="jTextField6" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="txtCaja7" alignment="3" min="-2" max="-2" attributes="0"/>
                                                   <Component id="jTextField126" alignment="3" min="-2" max="-2" attributes="0"/>
                                               </Group>
                                           </Group>
                                       </Group>
                                       <EmptySpace max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="3" attributes="0">
-                                          <Component id="jTextField4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="txtCaja3" alignment="3" min="-2" max="-2" attributes="0"/>
                                           <Component id="jTextField8" alignment="3" min="-2" max="-2" attributes="0"/>
                                           <Component id="jTextField124" alignment="3" min="-2" max="-2" attributes="0"/>
                                       </Group>
@@ -759,13 +762,13 @@
                                       <EmptySpace max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="3" attributes="0">
                                           <Component id="jTextField130" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          <Component id="jTextField3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="txtCaja4" alignment="3" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="jTextField267" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtCaja5" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="jTextField266" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="jTextField265" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="jTextField268" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
@@ -1184,10 +1187,13 @@
                 <Property name="text" type="java.lang.String" value="$"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField5">
+            <Component class="javax.swing.JTextField" name="txtCaja6">
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField5ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCaja6ActionPerformed"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JButton" name="jButton1">
               <Properties>
@@ -1205,20 +1211,26 @@
             </Component>
             <Component class="javax.swing.JSeparator" name="jSeparator4">
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField2">
+            <Component class="javax.swing.JTextField" name="txtCaja2">
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField2ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCaja2ActionPerformed"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="jTextField8">
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField8ActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField1">
+            <Component class="javax.swing.JTextField" name="txtCaja1">
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField1ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCaja1ActionPerformed"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JSeparator" name="jSeparator3">
             </Component>
@@ -1238,25 +1250,34 @@
                 <Property name="text" type="java.lang.String" value="Mercancias"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField4">
+            <Component class="javax.swing.JTextField" name="txtCaja3">
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField4ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCaja3ActionPerformed"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField3">
+            <Component class="javax.swing.JTextField" name="txtCaja4">
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField3ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCaja4ActionPerformed"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="jTextField7">
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField7ActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField6">
+            <Component class="javax.swing.JTextField" name="txtCaja7">
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField6ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCaja7ActionPerformed"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel1">
               <Properties>
@@ -2002,10 +2023,13 @@
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField266ActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField267">
+            <Component class="javax.swing.JTextField" name="txtCaja5">
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField267ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCaja5ActionPerformed"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="jTextField268">
               <Events>
@@ -2111,11 +2135,17 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField12ActionPerformed"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField13">
+            <Component class="javax.swing.JTextField" name="txtBanco1">
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField13ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtBanco1ActionPerformed"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="jTextField14">
               <Events>
