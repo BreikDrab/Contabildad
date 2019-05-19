@@ -8,9 +8,27 @@ import View.FrameIngresarDatosActivoPasivo;
 import View.FrameTMayor;
 import View.FrameTMayor;
 public class FrameBalance extends javax.swing.JFrame {
-
+//Aciento 1
     private static int numTxt1, numTxt2, numTxt3, numTxt4, numTxt5, numTxt6, numTxt7;
-    
+//Aciento2
+    private static int acient2Txt1, acient2Txt2, acient2Txt3;
+//Aciento3
+    private static int acient3Txt1, acient3Txt2, acient3Txt3;
+//Aciento4
+    private static int acient4Txt1, acient4Txt2, acient4Txt3;
+//Aciento5
+    private static int acient5Txt1, acient5Txt2, acient5Txt3;
+//Aciento6
+    private static int acient6Txt1, acien6Txt2, acient6Txt3;
+//Aciento7
+    private static int acient7Txt1, acient7Txt2, acient7Txt3;
+//Aciento8
+    private static int acient8Txt1, acient8Txt2, acient8Txt3;
+//Aciento9
+    private static int acient9Txt1, acient9Txt2, acient9Txt3;
+//Aciento10
+    private static int acient10Txt1, acient10Txt2, acient10Txt3;
+
     FrameTMayor fTmayor = new FrameTMayor();
     
     public FrameBalance() {
@@ -188,9 +206,9 @@ public class FrameBalance extends javax.swing.JFrame {
         txtAciento5Monto18 = new javax.swing.JTextField();
         jLabel21 = new javax.swing.JLabel();
         jLabel22 = new javax.swing.JLabel();
-        jTextField1 = new javax.swing.JTextField();
+        txtNombre = new javax.swing.JTextField();
         jLabel23 = new javax.swing.JLabel();
-        jTextField2 = new javax.swing.JTextField();
+        txtFechaEmpresa = new javax.swing.JTextField();
 
         jPasswordField1.setText("jPasswordField1");
 
@@ -1177,11 +1195,11 @@ public class FrameBalance extends javax.swing.JFrame {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(jLabel22)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 512, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(txtNombre, javax.swing.GroupLayout.PREFERRED_SIZE, 512, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jLabel23)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jTextField2)))
+                        .addComponent(txtFechaEmpresa)))
                 .addContainerGap())
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -1196,9 +1214,9 @@ public class FrameBalance extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel22)
-                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtNombre, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel23)
-                    .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtFechaEmpresa, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel3)
@@ -1450,7 +1468,7 @@ public class FrameBalance extends javax.swing.JFrame {
                     .addComponent(boxActivo34, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtAciento10Monto34, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtAciento10NumeroCuenta27, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 172, Short.MAX_VALUE)
+                .addGap(18, 27, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(btnBalanceDiarioT, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(btnEstadoDeResultado, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -1469,7 +1487,7 @@ public class FrameBalance extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING)
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 1664, Short.MAX_VALUE)
         );
 
         pack();
@@ -1608,6 +1626,7 @@ public class FrameBalance extends javax.swing.JFrame {
         FrameTMayor c=new FrameTMayor();        
         c.setVisible(true);
         this.setVisible(false);
+        nombreFecha();
         recivirDatos();
         enviarDatos();        
         
@@ -1813,14 +1832,16 @@ public class FrameBalance extends javax.swing.JFrame {
     private void txt2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt2ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txt2ActionPerformed
-
+    public void nombreFecha(){
+    //FrameTMayor.txtNombreEmpresa.setText(txtNombre.getText());
+    }
     public void recivirDatos(){
         recivirDatosAciento1();
         
     }
     public void recivirDatosAciento1(){
         String textAciento1 = txtAciento1Monto1.getText().toString();
-        textAciento1 = textAciento1.replace("$", "");
+  //      textAciento1 = textAciento1.replace("$", "");
         String textAciento2 = txtAciento1Monto2.getText().toString();
         String textAciento3 = txtAciento1Monto3.getText().toString();
         String textAciento4 = txtAciento1Monto4.getText().toString();
@@ -1834,8 +1855,11 @@ public class FrameBalance extends javax.swing.JFrame {
         numTxt4 = Integer.parseInt(textAciento4);    
         numTxt5 = Integer.parseInt(textAciento5);    
         numTxt6 = Integer.parseInt(textAciento6);    
-        numTxt7 = Integer.parseInt(textAciento7);                            
+        numTxt7 = Integer.parseInt(textAciento7);                           
     }
+    public void recivirDatosAciento2(){
+    
+            }
     
     public void enviarDatos() {
         box1Caja1();                     
@@ -1937,8 +1961,6 @@ public class FrameBalance extends javax.swing.JFrame {
     private javax.swing.JSeparator jSeparator7;
     private javax.swing.JSeparator jSeparator8;
     private javax.swing.JSeparator jSeparator9;
-    private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextField jTextField2;
     private javax.swing.JTextField txt1;
     private javax.swing.JTextField txt10;
     private javax.swing.JTextField txt11;
@@ -2034,5 +2056,7 @@ public class FrameBalance extends javax.swing.JFrame {
     private javax.swing.JTextField txtAciento9NumeroCuenta22;
     private javax.swing.JTextField txtAciento9NumeroCuenta23;
     private javax.swing.JTextField txtAciento9NumeroCuenta24;
+    public static javax.swing.JTextField txtFechaEmpresa;
+    public static javax.swing.JTextField txtNombre;
     // End of variables declaration//GEN-END:variables
 }
